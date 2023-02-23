@@ -1,0 +1,15 @@
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\MathProblems.csproj.AssemblyReference.cache
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\MathProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\MathProblems.AssemblyInfoInputs.cache
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\MathProblems.AssemblyInfo.cs
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\MathProblems.csproj.CoreCompileInputs.cache
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\bin\Debug\net6.0\MathProblems.exe
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\bin\Debug\net6.0\MathProblems.deps.json
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\bin\Debug\net6.0\MathProblems.runtimeconfig.json
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\bin\Debug\net6.0\MathProblems.dll
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\bin\Debug\net6.0\MathProblems.pdb
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\MathProblems.dll
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\refint\MathProblems.dll
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\MathProblems.pdb
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\MathProblems.genruntimeconfig.cache
+C:\Users\H529676\Desktop\Learning\MathProblems\MathProblems\obj\Debug\net6.0\ref\MathProblems.dll
