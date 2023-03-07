@@ -1,8 +1,8 @@
 ﻿namespace MathProblems;
 
-public class Prime1001
+public class Prime10001
 {
-    public static void PrimeFinder()
+    public static int PrimeFinder()
     {
 
         var primes = new List<int>
@@ -18,12 +18,12 @@ public class Prime1001
             
             numToCheck++;
         }
-        Console.WriteLine(primes[10000]);
+        return primes[10000];
     }
 
     public static bool IsPrime(long number)
     {
-        if (number > 2 && number % 2 == 0)
+        if (number > 2 && number % 2 == 0 || number <= 0)
             return false;
         for (var i = 2; i <= Math.Sqrt(number); i++)
         {

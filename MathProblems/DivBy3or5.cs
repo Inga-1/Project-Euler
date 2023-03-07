@@ -2,7 +2,7 @@
 
 public class DivBy3or5
 {
-    public static int DivisibleBy3Or5()
+    public static int DivisibleBy3Or5Sum()
     {
         var result = 0;
         for (var i = 0; i < 1000; i++)
@@ -14,12 +14,12 @@ public class DivBy3or5
         return result;
     }
 
-    private static bool DivisibleBy3(int num)
+    public static bool DivisibleBy3(int num)
     {
         return num % 3 == 0;
     }
 
-    private static bool DivisibleBy5(int num)
+    public static bool DivisibleBy5(int num)
     {
         return (num % 5 == 0);
     }

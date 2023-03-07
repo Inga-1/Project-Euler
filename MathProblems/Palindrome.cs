@@ -22,7 +22,7 @@ public class Palindrome
         return biggest;
     }
 
-    private static string IsReverse(string word)
+    public static string IsReverse(string word)
     {
         var wordReverse = new char[word.Length];
         for (int i = 0, j = word.Length - 1; i <= j; i++, j--)
@@ -61,7 +61,7 @@ public class Palindrome
         var biggest = ListOfResults.Max();
         var factoring = dict[biggest];
 
-        Console.WriteLine("Biggest palindrome with 2 digit number is {0}, while the factors are {1}", biggest, factoring);
+        Console.WriteLine("Biggest palindrome with 3 digit numbers is {0}, while the factors are {1}", biggest, factoring);
 
     }
 }

@@ -87,23 +87,76 @@ public class LargestProductInAGrid
         return LargestInAllRows(reverseGrid);
     }
 
-    public static void ReadingByDiagonals(List<int[]> grid)
-    {
-        var column = 20;
-        var row = 20;
-        var result = new List<List<int>>();
-        for (int line = 1; line < row + column -1; line++)
+    public static void ReadingByDiagonalsFromRight(List<int[]> grid)
+    { 
+        int row = 20;
+        int column = 20;
+        
+        for (int line = 1;
+             line <= (row + column - 1);
+             line++)
         {
-            int start = 0 > line - row ? 0 : line - row;
-            int count = Math.Min(line, Math.Min(column - start, row));
 
+            int startColumn = Math.Max(0, line - row);
+
+            int count = Math.Min(line, Math.Min((column - startColumn), row));
+
+            // Print elements of this line
             for (int j = 0; j < count; j++)
-            {
-                Console.Write(grid[Math.Min(row, line) -j - 1][start + j] + " ");
-            }
+                Console.Write(grid[Math.Min(row, line) - j - 1][startColumn + j] + " ");
+
+            Console.WriteLine();
         }
 
-        Console.WriteLine();
-        //return result;
+    }
+    public static void ReadingByDiagonalsFromLeft(List<int[]> grid)
+    {
+        int row = 20;
+        int column = 20;
+
+        for (int line = 1;
+             line <= (row + column - 1);
+             line++)
+        {
+
+            int startColumn = Math.Max(0, line - row);
+
+            int count = Math.Min(line, Math.Min((column - startColumn), row));
+
+            // Print elements of this line
+            for (int j = 0; j < count; j++)
+                Console.Write(grid[Math.Min(row, line) - j - 1][startColumn + j] + " ");
+
+            Console.WriteLine();
+        }
+    }
+
+    public static List<List<int>> Testing(List<int[]> grid)
+    {
+        List<List<int>> result = new();
+        for (int i = 19; i >= 0; i--)
+        {
+            List<int> line = new List<int>();
+            for (int j = 0; j < 20 - i; j++)
+            {
+                if (i + j != 19)
+                {
+                    int temp = i;
+                    temp++;
+                    line.Add(grid[temp][j]);
+                }
+                else
+                {
+                    line.Add(grid[i][j]);
+                }
+                //int temp = i;
+                
+                //temp++;
+                //i++;
+            }
+            result.Add(line);
+        }
+
+        return result;
     }
 }

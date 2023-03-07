@@ -2,12 +2,12 @@
 
 public class SmallestMultiple
 {
-    public static void Smallest()
+    public static int Smallest()
     {
         var number = 1;
         while (true)
         {
-            for (int i = 1; i <= 20; i++)
+            for (var i = 1; i <= 20; i++)
             {
                 if (number % i == 0)
                 {
@@ -20,6 +20,6 @@ public class SmallestMultiple
             }
             break;
         }
-        Console.WriteLine(number);
+        return number;
     }
 }

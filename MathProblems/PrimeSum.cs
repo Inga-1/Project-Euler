@@ -7,7 +7,7 @@ public class PrimeSum
         long sum = 2;
         for (long i = 3; i <= 2000000; i++)
         {
-            if (Prime1001.IsPrime(i))
+            if (Prime10001.IsPrime(i))
                 sum += i;
         }
         Console.WriteLine(sum);
