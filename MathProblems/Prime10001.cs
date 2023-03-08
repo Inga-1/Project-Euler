@@ -4,7 +4,6 @@ public class Prime10001
 {
     public static int PrimeFinder()
     {
-
         var primes = new List<int>
         {
             2,

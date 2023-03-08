@@ -1,6 +1,4 @@
-﻿using System.Xml.Schema;
-
-namespace MathProblems;
+﻿namespace MathProblems;
 
 public class LargestPrimeFactor
 {

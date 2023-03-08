@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic.CompilerServices;
-
-namespace MathProblems;
+﻿namespace MathProblems;
 
 public class HighlyDivisibleTriangularNumber
 {

@@ -1,6 +1,4 @@
-﻿using System.Reflection.PortableExecutable;
-
-namespace MathProblems.UnitTests
+﻿namespace MathProblems.UnitTests
 {
     [TestFixture]
     internal class SmallestMultipleTests

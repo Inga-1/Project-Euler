@@ -1,7 +1,7 @@
 ﻿namespace MathProblems.UnitTests
 {
     [TestFixture]
-    public class FibonacciSum
+    public class FibonacciSumTests
     {
         [Test]
         public void SumOfEvenFibonacciTo4Million_CalculatesTheNumber_ReturnsTheCorrectValue()

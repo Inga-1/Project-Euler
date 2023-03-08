@@ -1,6 +1,4 @@
-﻿using System.Reflection.PortableExecutable;
-
-namespace MathProblems.UnitTests
+﻿namespace MathProblems.UnitTests
 {
     [TestFixture]
     internal class PythagoreanTests
@@ -8,9 +6,9 @@ namespace MathProblems.UnitTests
         [Test]
         public void IsPythagorean_TheNumbersArePythagorean_ReturnsTrue()
         {
-            var a = 3;
-            var b = 4;
-            var c = 5;
+            const int a = 3;
+            const int b = 4;
+            const int c = 5;
 
             var result = Pythagorean.IsPythagorean(a, b, c);
             
@@ -20,9 +18,9 @@ namespace MathProblems.UnitTests
         [Test]
         public void IsPythagorean_TheNumbersAreNotPythagorean_ReturnsFalse()
         {
-            var a = 2;
-            var b = 4;
-            var c = 5;
+            const int a = 2;
+            const int b = 4;
+            const int c = 5;
 
             var result = Pythagorean.IsPythagorean(a, b, c);
 
@@ -32,9 +30,9 @@ namespace MathProblems.UnitTests
         [Test]
         public void IsPythagorean_TheNumbersAreNotPythagoreanAndThereIsAZero_ReturnsFalse()
         {
-            var a = 0;
-            var b = 4;
-            var c = 5;
+            const int a = 0;
+            const int b = 4;
+            const int c = 5;
 
             var result = Pythagorean.IsPythagorean(a, b, c);
 
@@ -44,9 +42,9 @@ namespace MathProblems.UnitTests
         [Test]
         public void IsPythagorean_TheNumbersAreNotPythagoreanAndAreNegative_ReturnsFalse()
         {
-            var a = -3;
-            var b = 4;
-            var c = 5;
+            const int a = -3;
+            const int b = 4;
+            const int c = 5;
 
             var result = Pythagorean.IsPythagorean(a, b, c);
 
@@ -56,8 +54,8 @@ namespace MathProblems.UnitTests
         [Test]
         public void FindC_BothInputsAreValidForPythagorean_ReturnValidC()
         {
-            var a = 3;
-            var b = 4;
+            const int a = 3;
+            const int b = 4;
 
             var c = Pythagorean.FindC(a, b);
 
@@ -67,8 +65,8 @@ namespace MathProblems.UnitTests
         [Test]
         public void FindC_BothInputsAreInvalid_ReturnInvalidC()
         {
-            var a = -3;
-            var b = -4;
+            const int a = -3;
+            const int b = -4;
 
             var c = Pythagorean.FindC(a, b);
 
@@ -78,7 +76,7 @@ namespace MathProblems.UnitTests
         [Test]
         public void Triplet_ReturnsTheCorrectResult()
         {
-            var product = 31875000;
+            const int product = 31875000;
 
             var result = Pythagorean.Triplet();
 

@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Reflection.PortableExecutable;
-
-namespace MathProblems;
+﻿namespace MathProblems;
 
 public class Pythagorean
 {

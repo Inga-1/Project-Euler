@@ -1,9 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Data.Common;
-using System.Globalization;
-
-namespace MathProblems;
+﻿namespace MathProblems;
 
 public class LargestProductInAGrid
 {
