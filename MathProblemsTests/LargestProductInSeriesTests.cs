@@ -57,6 +57,5 @@
 
             Assert.That(result, Is.EqualTo(product));
         }
-
     }
 }
